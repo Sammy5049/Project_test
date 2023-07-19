@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+
+
+int main(void)
+{
+  int i,j,k;
+
+  for ( i = 0; i <= 9; i++)
+  {
+    for ( j = 0; j <= 9; j++)
+    {
+      for (k = 0; k <= 9; k++)
+      {
+        
+      if (i < j && j < k)
+      {
+        
+      printf("%d%d%d", i, j, k);
+      if (i != 7)
+      {
+       
+      printf(",");
+      printf(" ");
+      }
+      
+      }
+
+      }
+      
+      
+    }
+    printf("\n");
+    
+  }
+  
+    return 0;
+}
