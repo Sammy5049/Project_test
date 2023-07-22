@@ -7,10 +7,10 @@ int main(void)
  float weight;
 
 
- printf("Please enter your height \n");
+ printf("Please enter your height (in meter) \n");
  scanf("%f", &height);
 
- printf("Please enter your weight \n");
+ printf("Please enter your weight (in kg) \n");
  scanf("%f", &weight);
 
  int BMI = weight / (height * height);
