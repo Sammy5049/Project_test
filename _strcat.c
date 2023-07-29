@@ -41,15 +41,12 @@ while (dam[a] != '\0' )
 {
  a++;
 }
-
 if (a > 0 && a < MAX_NAME_LENGTH - 1)
 {
 dam[a] = ' ';
 a++;
 }
-
 int b = 0;
-
 while (sam[b] != '\0' && a < MAX_NAME_LENGTH - 1)
 {
   dam[a] = sam[b];
